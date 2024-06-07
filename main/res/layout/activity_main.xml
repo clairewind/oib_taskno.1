@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputValue"
+        android:layout_width="376dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter value"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/fromUnit"
+        android:layout_width="378dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="16dp"
+        android:hint="From unit (e.g., cm, m, g, kg)" />
+
+    <EditText
+        android:id="@+id/toUnit"
+        android:layout_width="383dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="16dp"
+        android:hint="To unit (e.g., cm, m, g, kg)" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="223dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:text="Convert" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="387dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:text="Result will be shown here"
+        android:textSize="18sp" />
+</LinearLayout>
